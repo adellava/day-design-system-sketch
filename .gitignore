@@ -1,2 +1,7 @@
-.sass-cache/
+*.iml
+.idea/
+/.sass-cache
 *.css.map
+/node_modules
+npm-debug.log
+.DS_Store

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Day Design System</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="./bundle.js"></script>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+
+        <h1>Day Design System</h1>
+
+        <h2>Pagination</h2>
+        <p>Questo pattern rappresenta il modo con cui vengono paginati elementi all'interno dell'applicazione. Mostra i numeri delle pagine per raggiungerle direttamente oltre a due bottoni
+            per l'avanzamento controllato in avanti e indietro.
+        </p>
+
+        <ul class="pagination">
+            <li class="pagination__item pagination__item--special-button"><a href="#">Previous</a></li>
+            <li class="pagination__item pagination__item--active"><a href="#">1</a></li>
+            <li class="pagination__item"><a href="#">2</a></li>
+            <li class="pagination__item"><a href="#">3</a></li>
+            <li class="pagination__item"><a href="#">4</a></li>
+            <li class="pagination__item"><a href="#">5</a></li>
+            <li class="pagination__item"><a href="#">6</a></li>
+            <li class="pagination__item"><a href="#">7</a></li>
+            <li class="pagination__item"><a href="#">8</a></li>
+            <li class="pagination__item pagination__item--special-button"><a href="#">Next</a></li>
+        </ul>
+
+        <h2>Snippet</h2>
+        <pre>
+&lt;ul class=&quot;pagination&quot;&gt;
+    &lt;li class=&quot;pagination__item pagination__item--special-button&quot;&gt;&lt;a href=&quot;#&quot;&gt;Previous&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item pagination__item--active&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;7&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;8&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;9&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;10&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__item pagination__item--special-button&quot;&gt;&lt;a href=&quot;#&quot;&gt;Next&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+        </pre>
+
+        <h2>Do &amp; Don't</h2>
+
+        <ul>
+            <li>✅ usare sempre in coda all'elemento da paginare, non in testa</li>
+            <li>⚠️ non usare per dispositivi mobile dove è previsto un altro componente specifico (infinite scroll)</li>
+        </ul>
+
+    </body>
+
+</html>

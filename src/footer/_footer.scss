@@ -1,0 +1,25 @@
+//== Footer
+//
+//##
+
+$text:#444;
+$background-footer:#6BC3A7;
+$gutter:40px;
+
+.footer{
+    background-color:$background-footer;
+    padding:20px $gutter 20px $gutter;
+    text-align:center;
+    address{
+        font-size:13px;
+        font-style:normal;
+        a:link,
+        a:visited{
+        color:$text;
+            &:hover,
+            &:active{
+                text-decoration:none;
+            }
+        }
+    }
+}
